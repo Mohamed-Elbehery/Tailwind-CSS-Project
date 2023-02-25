@@ -31,3 +31,79 @@ html {
   top: -15%;
   z-index: -1;
 }
+
+@media screen and (max-width: 784px) {
+  .features .features-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services .services-image {
+    display: none;
+  }
+
+  .services-content > div {
+    width: 100%;
+  }
+
+  .services-content > div > div {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .portfolio-content {
+    flex-direction: column;
+  }
+
+  .portfolio-content .box {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  header {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .about-img {
+    display: none;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-text p {
+    width: 100%;
+  }
+
+  .about-text p::before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .title-component h1 {
+    font-size: 4rem;
+  }
+
+  .title-component p {
+    font-size: 1rem;
+  }
+
+  .contact-content h3 {
+    font-size: 2rem;
+  }
+
+  .contact-content a {
+    font-size: 1.5rem;
+  }
+}
