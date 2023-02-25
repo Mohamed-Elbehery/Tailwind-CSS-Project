@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.icon::after {
+  content: "";
+  border-width: 14px;
+  position: absolute;
+  top: 6px;
+  left: 3px;
+}
+
+.icon:hover .menu {
+  top: 2rem;
+  right: -1px;
+}
+
+.landing {
+  background-image: url("../assets/landing.jpg");
+  background-size: cover;
+  height: calc(100vh - 56px);
+  position: relative;
+}
+
+.services-image::before {
+  content: "";
+  width: 35%;
+  height: 130%;
+  position: absolute;
+  right: -17.5%;
+  top: -15%;
+  z-index: -1;
+}

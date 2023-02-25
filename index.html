@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Tailwind CSS Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--! Start of Header -->
+    <header class="bg-white py-4">
+      <div class="container flex justify-between items-center mx-auto">
+        <a href="#" class="text-emerald-400 text-2xl font-bold">LOGO</a>
+        <div
+          class="icon after:content-[''] after:top-2 after:hidden after:absolute after:left-1 after:z-10 hover:after:block after:border-solid after:border-t-transparent after:border-b-gray-100 after:border-r-transparent after:border-l-transparent relative flex flex-col items-center gap-1 group"
+        >
+          <span class="h-0.5 bg-black border-black border w-8"></span>
+          <span
+            class="centered h-0.5 bg-black border-black border w-4 self-end group-hover:w-8 transition-all delay-0 duration-500"
+          ></span>
+          <span class="h-0.5 bg-black border-black border w-8"></span>
+          <ul
+            class="menu pt-2 hidden group-hover:flex flex-col justify-start top-7 absolute right-1 z-10 bg-gray-100"
+          >
+            <li class="border-b-2 border-gray-300 pr-8 pl-6 py-2 text-black">
+              <a
+                class="py-6 pl-0 pr-8 hover:pl-6 hover:pr-2 transition-all duration-300"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="border-b-2 border-gray-300 pr-8 pl-6 py-4 text-black">
+              <a
+                class="py-6 pl-0 pr-8 hover:pl-6 hover:pr-2 transition-all duration-300"
+                href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="border-b-2 border-gray-300 pr-8 pl-6 py-4 text-black">
+              <a
+                class="py-6 pl-0 pr-8 hover:pl-6 hover:pr-2 transition-all duration-300"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="pl-6 pr-8 py-4 text-black">
+              <a
+                class="py-6 pl-0 pr-8 hover:pl-6 hover:pr-2 transition-all duration-300"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <!--! Start of Landing -->
+    <section class="landing">
+      <div
+        class="landing-content absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-96 max-w-full"
+      >
+        <h1 class="text-emerald-400 text-5xl font-bold">Hello There</h1>
+        <p class="mt-6 text-xl leading-8">
+          We are Leon - Super Creative & <br />
+          Minimal Agency Web Template
+        </p>
+      </div>
+    </section>
+    <!-- End of Landing -->
+    <!--! Start of Features -->
+    <section class="features bg-[#F6F6F6] py-20">
+      <div class="flex container mx-auto justify-evenly">
+        <div class="flex flex-col items-center justify-center">
+          <i
+            class="text-emerald-400 text-5xl fa-sharp fa-solid fa-wand-magic-sparkles"
+          ></i>
+          <h1 class="my-5 font-bold text-xl">Tell Us Your Idea</h1>
+          <p class="text-center w-64 leading-7 text-[#777777]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <i class="text-emerald-400 text-5xl fa-regular fa-gem"></i>
+          <h1 class="my-5 font-bold text-xl">We Will Do All The Work</h1>
+          <p class="text-center w-64 leading-7 text-[#777777]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <i class="text-emerald-400 text-5xl fa-solid fa-earth-asia"></i>
+          <h1 class="my-5 font-bold text-xl">Your Product is Worldwide</h1>
+          <p class="text-center w-64 leading-7 text-[#777777]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End of Features -->
+    <!--! Start of Services -->
+    <section id="services" class="services container mx-auto pt-12 pb-28">
+      <div class="title-component relative">
+        <h1 class="text-center text-8xl font-bold text-[#7777771a]">
+          Services
+        </h1>
+        <p
+          class="text-lg text-center text-[#888888] font-semibold absolute left-1/2 -translate-x-1/2 -bottom-2"
+        >
+          Don't be busy, be productive
+        </p>
+      </div>
+      <div class="services-content flex items-center justify-evenly mt-16">
+        <div class="flex flex-wrap mt-20 gap-16 w-2/4">
+          <div class="box flex">
+            <i class="text-emerald-400 text-4xl fa-solid fa-palette"></i>
+            <div class="box-content ml-5">
+              <h1 class="font-bold">Graphic Design</h1>
+              <p class="w-72 mt-4 text-[#777]">
+                Graphic design is the process of visual communication and
+                problem-solving using one or more of typography, photography and
+                illustration.
+              </p>
+            </div>
+          </div>
+          <div class="box flex">
+            <i class="text-emerald-400 text-4xl fa-solid fa-crop-simple"></i>
+            <div class="box-content ml-5">
+              <h1 class="font-bold">Web Design</h1>
+              <p class="w-72 mt-4 text-[#777]">
+                Web design encompasses many different skills and disciplines in
+                the production and maintenance of websites.
+              </p>
+            </div>
+          </div>
+          <div class="box flex">
+            <i class="text-emerald-400 text-4xl fa-regular fa-gem"></i>
+            <div class="box-content ml-5">
+              <h1 class="font-bold">UI & UX</h1>
+              <p class="w-72 mt-4 text-[#777]">
+                Process of enhancing user satisfaction with a product by
+                improving the usability, accessibility, and pleasure provided in
+                the interaction.
+              </p>
+            </div>
+          </div>
+          <div class="box flex">
+            <i class="text-emerald-400 text-4xl fa-solid fa-pen-ruler"></i>
+            <div class="box-content ml-5">
+              <h1 class="font-bold">Web Development</h1>
+              <p class="w-72 mt-4 text-[#777]">
+                Web development is a broad term for the work involved in
+                developing a web site for the Internet or an intranet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="relative mt-8 before:bg-slate-700 w-72">
+          <img class="w-full" src="./assets/services.jpg" alt="mountain" />
+        </div>
+      </div>
+    </section>
+    <!-- End of Services -->
+    <!--! Start of Portfolio -->
+    <section id="portfolio" class="portfolio bg-[#F6F6F6] py-20">
+      <div class="title-component relative">
+        <h1 class="text-center text-8xl font-bold text-[#7777771a]">
+          Portfolio
+        </h1>
+        <p
+          class="text-lg text-center text-[#888888] font-semibold absolute left-1/2 -translate-x-1/2 -bottom-2"
+        >
+          If you do it right, it will last forever.
+        </p>
+      </div>
+      <div
+        class="portfolio-content container mx-auto flex mt-20 justify-evenly"
+      >
+        <div class="box bg-white w-[30%] h-fit rounded-lg pb-6">
+          <img
+            class="rounded-lg w-full"
+            src="../assets/portfolio-1.jpg"
+            alt="portfolio-image1"
+          />
+          <h1 class="px-8 my-4 font-bold text-xl">Project Here</h1>
+          <p class="text-[#777] px-8">
+            My creative ability is very difficult to measure because it can
+            manifest in so many surprising and.
+          </p>
+        </div>
+        <div class="box bg-white w-[30%] h-fit rounded-lg pb-6">
+          <img
+            class="rounded-lg"
+            src="../assets/portfolio-2.jpg"
+            alt="portfolio-image2"
+          />
+          <h1 class="px-8 my-4 font-bold text-xl">Project Here</h1>
+          <p class="text-[#777] px-8">
+            My creative ability is very difficult to measure because it can
+            manifest in so many surprising and.
+          </p>
+        </div>
+        <div class="box bg-white w-[30%] h-fit rounded-lg pb-6">
+          <img
+            class="rounded-lg"
+            src="../assets/portfolio-3.jpg"
+            alt="portfolio-image3"
+          />
+          <h1 class="px-8 my-4 font-bold text-xl">Project Here</h1>
+          <p class="text-[#777] px-8">
+            My creative ability is very difficult to measure because it can
+            manifest in so many surprising and.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End of Portfolio -->
+    <!--! Start of About -->
+    <section id="about" class="about container mx-auto py-24">
+      <div class="title-component relative">
+        <h1 class="text-center text-8xl font-bold text-[#7777771a]">About</h1>
+        <p
+          class="text-lg text-center text-[#888888] font-semibold absolute left-1/2 -translate-x-1/2 -bottom-2"
+        >
+          Less is more work
+        </p>
+      </div>
+      <div class="about-content flex items-center justify-around mt-24">
+        <div
+          class="about-img w-64 relative before:content-['L'] before:font-bold before:absolute before:left-[10rem] before:-bottom-[6rem] before:text-[32rem] before:-z-10 before:text-emerald-400 after:content-['l'] after:font-bold after:absolute after:right-[8.5rem] after:-bottom-[15.8rem] after:text-[40rem] after:-z-10 after:text-[#7777771a]"
+        >
+          <img class="w-full" src="../assets/about.jpg" alt="about-image" />
+        </div>
+        <div class="about-text w-2/4">
+          <p
+            class="w-3/4 relative text-black leading-7 font-bold pb-12 before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-1/2 before:bg-emerald-400 before:h-0.5"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo
+            neque voluptate tempora velit cum non, fuga vitae architecto
+            delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi
+            iusto laudantium!
+          </p>
+          <p class="w-3/4 pt-12 text-[#888888] leading-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum
+            officiis dolorum hic voluptate quaerat minima, similique inventore
+            esse, alias, sed quo officia?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End of About -->
+    <!--! Start of Contact -->
+    <section id="contact" class="contact bg-[#F6F6F6] py-20">
+      <div class="container mx-auto">
+        <div class="title-component relative">
+          <h1 class="text-center text-8xl font-bold text-[#7777771a]">
+            Contact
+          </h1>
+          <p
+            class="text-lg text-center text-[#888888] font-semibold absolute left-1/2 -translate-x-1/2 -bottom-2"
+          >
+            We are born to create
+          </p>
+        </div>
+        <div class="contact-content text-center mt-20">
+          <h3 class="font-bold text-4xl text-cyan-900 tracking-tighter mb-4">
+            Feel free to drop us a line at:
+          </h3>
+          <a
+            href="mailto:leonagency@mail.com"
+            class="text-emerald-400 font-bold text-4xl tracking-tighter"
+            >leonagency@mail.com</a
+          >
+          <div class="social-icons flex items-center justify-center mt-4">
+            <span class="mr-2">Find Us On Social Networks</span>
+            <i
+              class="cursor-pointer fa-brands fa-youtube px-1 text-cyan-900"
+            ></i>
+            <i
+              class="cursor-pointer fa-brands fa-facebook-f px-1 text-cyan-900"
+            ></i>
+            <i
+              class="cursor-pointer fa-brands fa-twitter px-1 text-cyan-900"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact -->
+    <!--! Start of Footer -->
+    <footer class="bg-slate-700 py-9 text-white font-bold text-[18px]">
+      <p class="text-center">
+        © 2021 <span class="text-emerald-400">Leon</span> All Right Reserved
+      </p>
+    </footer>
+    <!-- End of Footer -->
+  </body>
+</html>
