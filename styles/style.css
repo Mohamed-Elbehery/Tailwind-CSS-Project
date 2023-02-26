@@ -124,6 +124,12 @@ html {
   }
 }
 
+@media screen and (max-width: 433px) {
+  .title-component p {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .services-content .box {
     margin: 0 auto;
@@ -131,9 +137,14 @@ html {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+    padding: 0 0.25rem;
   }
   
   .services-content .box-content {
     margin-left: 0;
+  }
+  
+  .services-content .box-content p {
+    width: 100%;
   }
 }
