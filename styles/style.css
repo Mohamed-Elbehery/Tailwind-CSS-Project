@@ -111,3 +111,13 @@ html {
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .services-content .box {
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
