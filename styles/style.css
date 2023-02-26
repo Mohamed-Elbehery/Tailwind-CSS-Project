@@ -131,6 +131,14 @@ html {
 }
 
 @media screen and (max-width: 360px) {
+  .title-component p {
+    font-size: 0.9rem;
+  }
+  
+  .title-component h1 {
+    font-size: 2.725rem;
+  }
+  
   .services-content .box {
     margin: 0 auto;
     align-items: center;
