@@ -133,7 +133,7 @@ html {
     gap: 1rem;
   }
   
-  .services-content .box p {
+  .services-content .box-content {
     margin-left: 0;
   }
 }
