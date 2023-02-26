@@ -120,4 +120,8 @@ html {
     text-align: center;
     gap: 1rem;
   }
+  
+  .services-content .box p {
+    margin-left: 0;
+  }
 }
