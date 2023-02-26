@@ -110,6 +110,18 @@ html {
   .contact-content a {
     font-size: 1.5rem;
   }
+  
+  header .container > a {
+    font-size: 2rem;
+  }
+  
+  .landing p {
+    font-size: 1rem;
+  }
+  
+  .landing h1 {
+    font-size: 2.325rem;
+  }
 }
 
 @media screen and (max-width: 360px) {
