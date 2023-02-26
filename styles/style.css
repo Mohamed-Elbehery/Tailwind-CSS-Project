@@ -59,7 +59,7 @@ html {
   }
 
   .portfolio-content .box {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 2rem;
   }
@@ -67,6 +67,10 @@ html {
   header {
     padding-right: 1rem;
     padding-left: 1rem;
+  }
+  
+  .about-text {
+    width: 75%;
   }
 }
 
