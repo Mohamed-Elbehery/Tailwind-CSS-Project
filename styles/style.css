@@ -130,7 +130,7 @@ html {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 414px) {
   .title-component p {
     font-size: 0.9rem;
   }
