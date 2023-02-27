@@ -40,12 +40,17 @@ html {
 }
 
 @media screen and (max-width: 820px) {
+  .container {
+    width: 95%;
+  }
+  
   .services .services-image {
     display: none;
   }
 
   .services-content > div {
     width: 100%;
+    gap: 2rem;
   }
 
   .services-content > div > div {
@@ -112,7 +117,7 @@ html {
   }
   
   header .container > a {
-    font-size: 2rem;
+    font-size: 1.35rem;
   }
   
   .landing p {
